@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Container from "./components/Container";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
-import images from "../images";
+import images from "./images";
 // import logo from './logo.svg';
 import './App.css';
 
