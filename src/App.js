@@ -119,7 +119,7 @@ class ClickyApp extends Component {
         <Banner />
         <Container 
           shake={state.shake}
-          imagecharacters={state.allImages}
+          imageCharacters={state.allImages}
           clickEvent={this.clickEvent}
         />
         <Footer />

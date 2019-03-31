@@ -1,6 +1,6 @@
 import React from 'react';
 import './Container.css';
-import Images from '../Images';
+import Character from '../Images';
 
 // main container for each Character component
 // loops through each index in props.characters, which contains an array of character images
@@ -15,7 +15,7 @@ const Container = props => (
         : 'container d-flex flex-wrap justify-content-center'
     }
   >
-    {props.characters.map((a, i) => <Images name={a} key={i} clickEvent={props.clickEvent} />)}
+    {props.imageCharacters.map((a, i) => <Character name={a} key={i} clickEvent={props.clickEvent} />)}
   </div>
 );
 
