@@ -1,17 +1,13 @@
 import React from "react";
+import "./Banner.css";
 
 const Banner = () => (
-    //   <div className="banner">
-    //     <p className="m-0">
-    //       
-    //     </p>
-    //   </div>
-    <div class="jumbotron jumbotron-fluid">
-        <div className="container">
-            <h1 className="display-4 text-center">How do you sonic?</h1>
-            <p className="lead text-center">Sonic me once, you get one. Sonic me twice, I won't be too nice.</p>
-        </div>
-    </div>
+  <div className="banner text-center d-flex align-items-center">
+    <p className="m-0">
+      Click on an image once to earn points. Click on image twice to lose all
+      your points! How good is your memory?
+    </p>
+  </div>
 );
 
 export default Banner;

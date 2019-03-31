@@ -5,7 +5,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import images from "./images";
 // import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 
 class ClickyApp extends Component {
   state = {
@@ -109,7 +109,7 @@ class ClickyApp extends Component {
   render() {
     const state = this.state;
     return (
-      <React.Fragment>
+      <div>
         <Navbar
           score={state.score}
           highScore={state.highScore}
@@ -119,11 +119,11 @@ class ClickyApp extends Component {
         <Banner />
         <Container 
           shake={state.shake}
-          imageCharacters={state.allImages}
+          characters={state.allImages}
           clickEvent={this.clickEvent}
         />
         <Footer />
-      </React.Fragment>
+      </div>
     )
   }
   
