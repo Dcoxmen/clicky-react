@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fff3d0457fed56200002",
-    "url": "/clicky-react/static/css/main.1a2baf26.chunk.css"
+    "revision": "b7fb2dde9209b363182c",
+    "url": "/clicky-react/static/css/main.bd3bf2db.chunk.css"
   },
   {
-    "revision": "fff3d0457fed56200002",
-    "url": "/clicky-react/static/js/main.98762b7d.chunk.js"
+    "revision": "b7fb2dde9209b363182c",
+    "url": "/clicky-react/static/js/main.bcd3749f.chunk.js"
   },
   {
     "revision": "715effbbbe4788c7de9c",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/clicky-react/static/media/the-silence.2ac08dfc.jpg"
   },
   {
-    "revision": "8bccdede029db3c41107c6add41a73f9",
+    "revision": "afcb6ddb1ed8f93e30130fa2ef6f0bbc",
     "url": "/clicky-react/index.html"
   }
 ];
