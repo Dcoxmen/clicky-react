@@ -5,7 +5,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import images from "./images";
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
 class ClickyApp extends Component {
   state = {
